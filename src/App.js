@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavigationBar from "./Components/Navbar/NavigationBar";
+import "./App.css"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Overview from "./Components/Overview/Overview";
 function App() {
+  const ColoredLine = ({ color }) => (
+    <hr
+        style={{
+            color: color,
+            backgroundColor: color,
+            height: 2,
+            marginTop:'59px'
+        }}
+    />
+);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavigationBar />
+      <ColoredLine color="#17223B"/>
+      <Overview/>
+    </Router>
   );
 }
 

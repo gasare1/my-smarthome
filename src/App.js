@@ -1,9 +1,9 @@
-import NavigationBar from "./Components/Navbar/NavigationBar";
+import NavigationBar from "./components/Navbar/NavigationBar";
 import "./App.css"
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
-import Overview from "./Components/Overview/Overview";
+import Overview from "./components/Overview/Overview";
 function App() {
   const ColoredLine = ({ color }) => (
     <hr

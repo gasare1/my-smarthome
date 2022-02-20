@@ -2,9 +2,6 @@ import NavigationBar from "./Components/Navbar/NavigationBar";
 import "./App.css"
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
 } from "react-router-dom";
 import Overview from "./Components/Overview/Overview";
 function App() {

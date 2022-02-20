@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 import { MdEmail } from "react-icons/md";
 import { BsFillBellFill, BsFillQuestionCircleFill } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -8,17 +7,7 @@ import { FaServer } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Progress_bar from "./Progress_bar";
 import { FiMenu } from "react-icons/fi";
-// import ProgressBar from 'react-bootstrap/ProgressBar'
 function NavigationBar() {
-  const ColoredLine = ({ color }) => (
-    <hr
-      style={{
-        color: color,
-        backgroundColor: color,
-        height: 5,
-      }}
-    />
-  );
   return (
     <nav>
       <div class="navbarcontainer">

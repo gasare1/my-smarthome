@@ -1,0 +1,78 @@
+.navbarcontainer {
+  background-color: #112031;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  caret-color: rgba(0,0,0,0);
+  border-bottom-color:#000;
+  border-bottom-width: 1;
+}
+.navbarcontainer ul {
+  display: flex;
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px;
+  color: rgb(110, 110, 110);
+  display: inline-block;
+}
+#right {
+  margin-left: auto;
+  font-size: 22px;
+  cursor: pointer;
+  right: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 100px;
+}
+#right-items {
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+#bell {
+  font-size: 22px;
+  cursor: pointer;
+}
+#bell :hover {
+  color: #fff;
+  display: block;
+  transform: rotate3d();
+  transition-delay: 0.5ms;
+  animation-name: GoUp;
+    animation-duration: 1s;
+}
+.progress-bar {
+  background-color: #082032;
+}
+#progressbar {
+  font-size: 22px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 15px;
+  padding-right: 60px;
+}
+.smart {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.smarthome {
+  color: #fff;
+  font-size: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+

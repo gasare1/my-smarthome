@@ -1,0 +1,75 @@
+#house-avatar {
+  display: block;
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border: 5px #cfd8dc;
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+#left-text {
+  margin: -1px;
+  margin-left: -20px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+#left-text2 {
+  margin: -5px;
+  margin-right: 100px;
+  width: auto;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+
+}
+#left-menu {
+
+
+}
+#menu-icons1 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #bdbdbd;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+  }
+#menu-icons {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #bdbdbd;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+#menu-icons :hover{
+    transition: none;
+}
+#left-menus :hover{
+    cursor: pointer;
+    color: bisque;
+    caret-color: rgba(0,0,0,0);
+    
+}
+#menu-icontext{
+    margin-left: 30px;
+    font-size: 15px;
+    caret-color: rgba(0,0,0,0);
+}
+.card-one{
+   justify-content: right;
+   align-items: flex-start;
+   display: flex;
+   margin: -50px;
+   margin-right: -150px;
+   margin-top: 115px;
+   width: 20rem;
+
+}
+.row-type{
+    flex-wrap: row wrap-reverse;
+}
